@@ -23,8 +23,6 @@ parameters {
     vector[p_vars] beta; // fixed regression coefficients
     real<lower=0> sigma_h; // variability of household random effect
     vector[H] eta_h; // standard normals for the household random effect
-    // real<lower=0> sigma_i;
-    // vector[N_survey] eta_i;
 }
 
 transformed parameters {
